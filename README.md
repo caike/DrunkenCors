@@ -1,24 +1,15 @@
 # DrunkenCors
 
-**TODO: Add description**
+A [Plug](https://github.com/elixir-lang/plug) that allows
+[CORS](http://www.w3.org/TR/cors/) in the most permissive way.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Not available in hex yet. For now, clone this repo and add dependency
+as a path in your _mix.exs_ file. Like this:
 
-  1. Add `drunken_cors` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:drunken_cors, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `drunken_cors` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:drunken_cors]]
-    end
-    ```
-
+```elixir
+defp deps do
+  [{:drunken_cors, path: "your-path-to/drunken_cors", app: false}]
+end
+```
