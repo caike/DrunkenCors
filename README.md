@@ -1,5 +1,8 @@
 # DrunkenCors
 
+
+[![Build Status](http://img.shields.io/travis/caike/DrunkenCors.svg)](http://travis-ci.org/caike/DrunkenCors)
+
 A [Plug](https://github.com/elixir-lang/plug) that allows
 [CORS](http://www.w3.org/TR/cors/) in the most permissive way.
 
