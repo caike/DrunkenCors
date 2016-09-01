@@ -1,0 +1,2 @@
+defmodule DrunkenCors do
+end
